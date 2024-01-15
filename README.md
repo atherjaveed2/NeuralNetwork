@@ -1,19 +1,22 @@
 # NeuralNetwork
  Assignment 1 of Neural Network and Deep Learning.
 
- Student Information: 
+ **Student Information: **
  Name: Fnu M A Javeed Ather
+
  Student Id: 700761692
+
  Email : lxm16920@ucmo.edu
+ 
  CRN Number: 22317
 
- Githublink: https://github.com/atherjaveed2/NeuralNetwork
+** Githublink:** https://github.com/atherjaveed2/NeuralNetwork
 
- Video Link: https://drive.google.com/file/d/1X5jwh6WcDhPW9mc5YVmJL_HKX5xqXo1Z/view?usp=share_link
+ **Video Link:** https://drive.google.com/file/d/1X5jwh6WcDhPW9mc5YVmJL_HKX5xqXo1Z/view?usp=share_link
 
- Description: This repository consists of python code for four coding questions of Assingment 1 of Neural Network and Deep Learning.
+ **Description:** This repository consists of python code for four coding questions of Assingment 1 of Neural Network and Deep Learning.
  
- Questions and Answers:
+ **Questions and Answers:**
 
 **Question 1A.** Input the string “Python” as a list of characters from console, delete at least 2 characters, reverse the resultant string and print it.
 **Answer.** As given in the question we have initialized an empty list(`char_list`) for storing the list of characters entered by the user from console and also initialized an empty string(`res_string`) for storing the reversed list of characters as a string. Next we have written logic for storing the input list of characters for that we have used a while loop and allow user to enter each character at a time and insert each character into our empty list(`char_list`) and if the user presses `Enter` button without entering a character then the if condition satisfies and the while loop breaks and process of entering input from console stops. Next we have written logic for removing atleast two characters (two starting characters as per our logic). In this logic first we are checking whether the length of `char_list` is 2 characters or not. If the length of input char list is less than 2 then we are asking user to enter the atleast two characters and if the legnth of input char list is 2 or greater than 2 we are removing the first two characters from the list and reversing the list using `slicing` and storing it it new variabe called `output_list`. Later we are are converting the `output_list` into a string using `join` method and printing it as Output of the code.
@@ -35,9 +38,9 @@ Percent (%)    Grade
  60-69         D
  0-59          F
 
- Technology Used: Python3
+** Technology Used:** Python3
 
- Usage: Install any python idle and clone this repository and run this command Ex: python3 file_name.py to run each file.
+** Usage:** Install any python idle and clone this repository and run this command Ex: python3 file_name.py to run each file.
 
 
 

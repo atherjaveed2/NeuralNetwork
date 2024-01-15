@@ -1,16 +1,16 @@
 # NeuralNetwork
  Assignment 1 of Neural Network and Deep Learning.
 
- **Student Information: **
+ **Student Information:**
  Name: Fnu M A Javeed Ather
 
  Student Id: 700761692
 
  Email : lxm16920@ucmo.edu
- 
+
  CRN Number: 22317
 
-** Githublink:** https://github.com/atherjaveed2/NeuralNetwork
+**Githublink:** https://github.com/atherjaveed2/NeuralNetwork
 
  **Video Link:** https://drive.google.com/file/d/1X5jwh6WcDhPW9mc5YVmJL_HKX5xqXo1Z/view?usp=share_link
 
@@ -38,9 +38,9 @@ Percent (%)    Grade
  60-69         D
  0-59          F
 
-** Technology Used:** Python3
+**Technology Used:** Python3
 
-** Usage:** Install any python idle and clone this repository and run this command Ex: python3 file_name.py to run each file.
+**Usage:** Install any python idle and clone this repository and run this command Ex: python3 file_name.py to run each file.
 
 
 

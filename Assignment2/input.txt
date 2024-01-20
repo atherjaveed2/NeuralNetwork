@@ -1,1 +1,2 @@
-Shirish is shirish is a man
+Python Course
+Deep Learning Course

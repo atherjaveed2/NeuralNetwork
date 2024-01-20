@@ -1,34 +1,25 @@
-# Nested Interactive Loop
-def convert_heights_nested(heights_inches):
+#Question 3
+def getHeightUsingLoop(heights_inches):
     heights_centimeters = []
     for height in heights_inches:
         centimeters = height * 2.54
         heights_centimeters.append(round(centimeters, 2))
     return heights_centimeters
 
-# List Comprehension
-def convert_heights_list_comprehension(heights_inches):
-    return [round(height * 2.54, 2) for height in heights_inches]
-
 def main():
-    # Input heights in inches from the user
-    heights_inches = []
-    num_customers = int(input("Enter the number of customers: "))
+    # Input heights in inches from the user.
+    heights_inches = list(map(float, input("Enter the list numbers separated by comma: ").strip().split(",")))
+    print("Input List in Inches: ", heights_inches)
 
-    for i in range(num_customers):
-        height = float(input(f"Enter height (in inches) for customer {i + 1}: "))
-        heights_inches.append(height)
+    # Interactive loop for converting height into centimeters.
+    heights_cm_nested = getHeightUsingLoop(heights_inches)
 
-    # Convert heights using nested interactive loop
-    heights_cm_nested = convert_heights_nested(heights_inches)
+    # List comprehension for converting height into centimeters.
+    heights_cm_comprehension= [round(height * 2.54, 2) for height in heights_inches]
 
-    # Convert heights using list comprehension
-    heights_cm_comprehension = convert_heights_list_comprehension(heights_inches)
-
-    # Display the results
-    print("Input Heights (in inches):", heights_inches)
-    print("Heights Converted using Nested Loop:", heights_cm_nested)
-    print("Heights Converted using List Comprehension:", heights_cm_comprehension)
+    # Printing the results.
+    print("Heights using Nested Loop:", heights_cm_nested)
+    print("Heights using List Comprehension:", heights_cm_comprehension)
 
 if __name__ == "__main__":
     main()

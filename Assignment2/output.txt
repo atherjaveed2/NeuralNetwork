@@ -1,10 +1,9 @@
-Input sentence is: Shirish is shirish is a man
+Input sentence is: Python Course Deep Learning Course
 
-Frequency of words: 
+Frequency of words:
 
-Shirish: 1
-is: 2
-shirish: 1
-a: 1
-man: 1
+Python: 1
+Course: 2
+Deep: 1
+Learning: 1
 

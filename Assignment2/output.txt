@@ -1,0 +1,10 @@
+Input sentence is: Shirish is shirish is a man
+
+Frequency of words: 
+
+Shirish: 1
+is: 2
+shirish: 1
+a: 1
+man: 1
+

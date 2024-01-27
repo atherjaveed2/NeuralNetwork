@@ -9,7 +9,7 @@
 
  Githublink: https://github.com/atherjaveed2/NeuralNetwork/tree/main/Assignment3
 
- Video Link: https://drive.google.com/file/d/1pjL_YR1OnqHEefhDNpPS_UcF76TXQf9l/v iew?usp=sharing
+ Video Link: https://drive.google.com/file/d/1pjL_YR1OnqHEefhDNpPS_UcF76TXQf9l/view?usp=sharing
 
 **Question 1.** 1. Create a class Employee and then do the following
 • Create a data member to count the number of Employees

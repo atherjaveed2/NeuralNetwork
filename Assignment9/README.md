@@ -10,5 +10,5 @@
  Githublink: https://github.com/atherjaveed2/NeuralNetwork/tree/main/Assignment9
 
 
- Video Link: 
+ Video Link: https://drive.google.com/file/d/1_85QVmJQHifMul1TQkVZPlSCjVOsJtTA/view
 
